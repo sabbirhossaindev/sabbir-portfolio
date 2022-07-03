@@ -6,9 +6,8 @@ body {
 h1 {
     font-size: 50px;
 }
-
-.orange-color {
-    color: orange;
+p{
+    align-items: justify;
 }
 
 .first-section {
@@ -23,16 +22,46 @@ h1 {
 }
 
 .half-width img {
-    width: 90%;
+    width: 95%;
 }
+.orange-color {
+    color: orange;
+}
+
 .btn-hire-me{ 
-    border-radius: 5px;
-    border: none;
     background-image: linear-gradient(#e16b57, #e53b1d);
     padding: 10px 40px;
+    border: none;
+    border-radius: 5px;
 }
 .btn-hire-me a{
     text-decoration: none;
     color: #fff;
     font-weight: 700;
+}
+
+/* SECEND SECTION START */
+.secend-section{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    display: flex;
+    margin-bottom: 150px;
+}
+.half-width-two{
+    width: 50%;
+}
+.half-width-two img{
+    width: 80%;
+}
+.btn-two{
+    background-image: linear-gradient(#f1952b, #f1310f);
+    padding: 10px 60px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-two a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 500;
 }
