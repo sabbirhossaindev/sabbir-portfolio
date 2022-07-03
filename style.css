@@ -6,6 +6,9 @@ body {
 h1 {
     font-size: 50px;
 }
+h2{
+    font-size: 35px;
+}
 p{
     align-items: justify;
 }
@@ -24,8 +27,8 @@ p{
 .half-width img {
     width: 95%;
 }
-.orange-color {
-    color: orange;
+span {
+    color: #ffa500;
 }
 
 .btn-hire-me{ 
@@ -63,5 +66,34 @@ p{
 .btn-two a{
     text-decoration: none;
     color: #fff;
-    font-weight: 500;
+    font-weight: 700;
+}
+
+/* therd SECTION START */
+.thrd-section-father{
+    display: flex;
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.half-width-three{
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 10px;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+}
+#full-stack-developer{
+    border-left: 8px solid tomato;
+}
+#wev-devloper{
+    border-left: 8px solid navy;
+}
+
+/*footer START */
+
+footer p{
+    margin-top: 120px;
+    text-align: center;
 }
